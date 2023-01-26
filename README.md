@@ -11,6 +11,8 @@ Application implemented using:
 - Dependency injection
 - Logger
 - Configuration using json-file
+- Error handling
+- Test coverage
  
  The app displays different metrics: 
   - Total number of tweets 
