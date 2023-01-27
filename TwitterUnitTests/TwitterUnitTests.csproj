@@ -21,4 +21,9 @@
   <ItemGroup>
     <Folder Include="SetupData\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="invalidappsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>

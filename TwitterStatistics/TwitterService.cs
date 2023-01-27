@@ -9,13 +9,13 @@ using Microsoft.Net.Http.Headers;
 
 namespace TwitterStatistics
 {
-    public class TwitterServiceService : ITwitterService
+    public class TwitterService : ITwitterService
     {
-        private readonly ILogger<TwitterServiceService> _logger;
+        private readonly ILogger<TwitterService> _logger;
         private readonly IStatistics _statistics;
         private readonly IConfiguration _configuration;
 
-        public TwitterServiceService(ILogger<TwitterServiceService> logger,
+        public TwitterService(ILogger<TwitterService> logger,
                                      IStatistics statistics,
                                      IConfiguration configuration)
         {

@@ -26,7 +26,7 @@ namespace TwitterStatistics
                 .ConfigureServices((hostContext, services) =>
                 {
                     // here, we register the dependency injection
-                    services.AddSingleton<ITwitterService, TwitterServiceService>();
+                    services.AddSingleton<ITwitterService, TwitterService>();
                     services.AddSingleton<IStatistics, Statistics>();
                     services.AddSingleton<IPrintStatistics, PrintStatistics>();
 

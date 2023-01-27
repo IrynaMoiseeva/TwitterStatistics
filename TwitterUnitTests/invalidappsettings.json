@@ -1,0 +1,20 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    },
+    "Debug": {
+      "LogLevel": {
+        "Default": "Trace"
+      }
+    }
+  },
+  "TwitterStatisticsConfig": {
+    "BearerToken": "V6%2F%2B2tVkOPlVKHZM%3DECVEYXxnDdXJhRNUreSrI1dwWeVc4XCJiUu3W32GusGvLjIyk9",
+    "StreamUrl": "https://api.twitter.com/2/tweets/sample/stream",
+    "IntervalInSeconds": "1"
+  }
+}
+
